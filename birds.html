@@ -37,6 +37,26 @@
     </style>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="birds.html">Interesting Birds</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="advanced.html">Advanced</a>
+          </li>
+        </ul>
+       </div>
+    </div>
+</nav> 
+
 
 <h1>Birds by Phani Padmanabha Naidu Ratnala</h1>
 <div class="container">
@@ -58,8 +78,8 @@
     <div class="col-md">Little shrikethrush</div>
 </div>
 <br>
-<p>Row with birds names will break first becasue of more characters present in them</p>
-<p>And coloums will automatically adjust on top of each other when screen size is less than 580px</p>
+<p>Row with birds names will break first due to more characters present in them</p>
+<p>coloums automatically customise top of each other when screen size is less than 580px</p>
 <div class="container">
   <img src="red_bellied_pitta.jpg" class="img-fluid" alt="Red_bellied pitta" width="400" height="400">
   <img src="night_heron.jpg" class="img-fluid" alt="Night-Heron" width="200" height="200">
@@ -143,5 +163,15 @@
 <div class="btn-toolbar" role="group" aria-label="Danger">
   <button type="button" class="btn btn-danger">L</button>
 </div>
+<div class="dropdown">
+  <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advance</a></li>
+  </ul>
+</div>
+
 </body>
 </html>
